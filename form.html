@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ticket system</title>
+    <link rel="stylesheet" href="css/formularz.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.filer.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Crafted.pl</a>
+    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <span class="navbar-text p-2">
+                    <a href="login.html">Posiadasz konto? Zaloguj się</a>
+                    <svg style="margin: 0 15px 2px 6px; transform: scale(1.3);" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-in-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                        <path fill-rule="evenodd"
+                            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                    </svg>
+                </span>
+                <a href="register.html"><div class="btn btn-outline-primary my-2 my-sm-0" type="submit">Zarejestruj się</div></a>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Strona główna</a></li>
+                <li class="breadcrumb-item"><a href="newticket.html">Nowe zgłoszenie</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Formularz</li>
+            </ol>
+        </nav>
+                <h2 class="help-title text-center mt-4">Skontaktuj się ze Wsparciem</h2>
+                <div class="line container"></div>
+                <h2 class="help-title-category text-center mt-4">Zgłoszenie dotyczy kategorii: Forum<span><a href="newticket.html">(zmień)</a></span>
+                <p class="help-subtitle text-center mt-4">Wybierz kategorię i opisz swój problem</p>
+                </h2>
+                <div class="col-sm-6 p-5 container">
+                    <form class="contact-form">
+                      
+                        <div class="form-group">
+                          <label for="category">Kategoria</label>
+                          <select class="form-control" id="category" required>
+                            <option value="">Wybierz kategorię</option>
+                            <option value="billing">Rachunki</option>
+                            <option value="technical">Techniczne</option>
+                            <option value="sales">Sprzedaż</option>
+                            <option value="other">Inne</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="subject">Temat</label>
+                          <input type="text" class="form-control" id="subject" placeholder="Wpisz temat zgłoszenia" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="description-billing">Opis (rachunki)</label>
+                          <textarea class="form-control" id="description-billing" rows="3" placeholder="Opisz swój problem z rachunkami" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="description-technical">Opis (techniczne)</label>
+                          <textarea class="form-control" id="description-technical" rows="3" placeholder="Opisz swój problem techniczny" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="description-sales">Opis (sprzedaż)</label>
+                          <textarea class="form-control" id="description-sales" rows="3" placeholder="Opisz swój problem związany z sprzedażą" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="description-other">Opis (inne)</label>
+                          <textarea class="form-control" id="description-other" rows="3" placeholder="Opisz inny problem" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Adres e-mail</label>
+                          <input type="email" class="form-control" id="email" placeholder="Wpisz swój adres e-mail" required>
+                        </div>
+                        <div class="form-group" id="attachment">
+                            <label for="attachment">Załącznik</label>
+                            <input type="file" class="form-control" id="attachment" multiple>
+                          </div>
+                          <div class="form-check" id="notification">
+                            <input class="form-check-input" type="checkbox" id="notification" checked>
+                            <label class="form-check-label" for="notification">Chcę otrzymać powiadomienie o odpowiedzi na moje zgłoszenie</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary btn-block mt-4">Wyślij</button>
+                        
+                        </form>
+                </div>
+                <div class="alert alert-primary" role="alert" style="margin-top: 100px;">
+                    Możliwa jest rejestracja w systemie zgłoszeń bla bla bla. <a href="#" class="alert-link">Rejestracja</a>
+                </div>
+        </div>
+        
+
+        <div class="footer-special">Copyright © 2020 Crafted.pl</div>
+
+
+        <script src="js/script.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+
+</html>

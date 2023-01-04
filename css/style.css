@@ -1,0 +1,57 @@
+.navbar-brand, .form-inline{
+    margin: 0 240px;
+}
+
+.main{
+    padding: 30px 0;
+}
+
+.mt-4{
+    margin-bottom: 50px;
+}
+
+.col-md-4{
+    margin: 15px;
+    border-radius: 10px;
+}
+
+button{
+    max-height: 120px;
+    width: 380px;
+    margin: 16px;
+    padding: 4px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(38,40,42,0.1);
+    background-color: #fff;
+    transition: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+p span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #002d73;
+}
+
+.icon{
+    width: 60px;
+    font-size: 25px;
+}
+
+button p{
+    letter-spacing: .1px;
+    color: #6b7480;
+    margin-top: -33px;
+    margin-left: 60px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.test{
+    padding-top: 15px;
+}

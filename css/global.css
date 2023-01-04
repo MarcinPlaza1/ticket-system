@@ -1,0 +1,50 @@
+.btn{
+  width: 150px;
+  background: rgb(74, 55, 245);
+  color: #fff;
+  padding-top: 20px;
+}
+
+.navbar-text{
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.navbar-brand, .form-inline{
+    margin: 0 240px;
+}
+
+.pass{
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pass:hover{
+  color: #005cbe;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: #6b7480;
+  font-size: 14px;
+}
+
+.footer-special {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 120px;
+  padding: 60px 0 20px 0;
+  text-align: center;
+  color: #6b7480;
+  font-size: 14px;
+  z-index: 1;
+}

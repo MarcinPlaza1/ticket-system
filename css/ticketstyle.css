@@ -1,0 +1,65 @@
+.crafted, .servers{
+    font-size: 22px;
+}
+
+.crafted{
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.servers{
+    margin: 20px;
+}
+
+.col-sm-4{
+    border-radius: 10px;
+    margin: 15px;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+.main{
+    padding: 30px 0;
+}
+
+button{
+    width: 340px;
+    padding-bottom: 12px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(38,40,42,0.1);
+    background-color: #fff;
+    transition: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #002d73;
+}
+
+.icon{
+    width: 60px;
+    font-size: 30px;
+}
+
+button p{
+    letter-spacing: .1px;
+    color: #6b7480;
+    margin-top: -36px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.test{
+    padding-top: 15px;
+}

@@ -1,0 +1,13 @@
+.list-group{
+    width: 300px;
+    float: right;
+}
+
+.mt-4{
+    margin-bottom: 50px;
+}
+
+.col-md-4{
+    margin: 15px;
+    border-radius: 10px;
+}

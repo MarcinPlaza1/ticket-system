@@ -1,0 +1,27 @@
+.container{
+    margin-top: 20px;
+}
+
+.mt-4{
+    margin-bottom: 50px;
+}
+
+.col-md-4{
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.text-center{
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+table{
+    box-shadow: 0 4px 8px 0 rgba(38,40,42,0.1);
+    padding: 40px 60px;
+    margin: 20px 0 20px 0;
+}
+
+.page-link{
+    background: red;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ticket system</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Crafted.pl</a>
+    </nav>
+
+    <div class="container py-5 z-depth-1">
+        <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-5">
+
+                    <form class="text-center" action="#!">
+
+                        <p class="h4 mb-4">Zaloguj się</p>
+
+                        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4"
+                            placeholder="Adres e-mail">
+
+                        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4"
+                            placeholder="Hasło">
+
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                    <label class="custom-control-label" for="defaultLoginFormRemember">Zapamiętaj
+                                        mnie</label>
+                                </div>
+                            </div>
+
+                            <div class="pass" data-toggle="modal" data-target="#centralModalSm">
+                                <a>Nie pamiętasz hasła?</a>
+                            </div>
+
+                            <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+
+                                <div class="modal-dialog modal-lg" role="document">
+
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title " id="myModalLabel">Nie pamiętasz hasła?</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group row">
+                                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Adres
+                                                        e-mail</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="inputEmail3">
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary btn-sm"
+                                                data-dismiss="modal">Wróć</button>
+                                            <button type="button" class="btn btn-primary btn-sm">Odzyskaj hasło</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary my-4" type="submit">Pokaż sprawę</button>
+
+                        <p>Nie masz konta?
+                            <a href="register.html">Rejestracja</a>
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="footer">Copyright © 2020 Crafted.pl</div>
+
+</body>
+
+</html>

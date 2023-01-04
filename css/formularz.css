@@ -1,0 +1,30 @@
+.container{
+  flex-direction: column;
+}
+
+.help-title{
+  padding: 25px 0 15px 0 ;
+  font-size: 26px;
+}
+
+.help-title-category{
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+.help-title-category span{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.line{
+  height: 1px;
+  width: 450px;
+  background: #eee;
+  margin-bottom: 20px;
+}
+
+.col-lg-6{
+  box-shadow: 0 4px 8px 0 rgba(38,40,42,0.1);
+}
